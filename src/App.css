@@ -65,8 +65,38 @@
     padding: 1.5%;
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .App {
-        margin: 0;
+@media (min-width: 320px) and (max-width: 900px) {
+    .header {
+        padding-left: 13.2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        background-color: bisque;
+        color: rgb(66, 66, 66);
+    }
+    .player1 {
+        margin: 2%;
+        padding: 1%;
+        width: 150px;
+        height: 120px;
+        font-size: 1rem;
+        border-radius: 55px;
+        background-color: lightgray;
+        color: rgb(253, 84, 84);
+    }
+    .computer {
+        margin: 2%;
+        padding: 1%;
+        width: 160px;
+        height: 120px;
+        font-size: 1rem;
+        border-radius: 55px;
+        background-color: lightgray;
+        color: rgb(253, 84, 84);
+    }
+    .image {
+        padding-top: 4%;
+        padding: 1.5%;
     }
 }
