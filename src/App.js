@@ -85,7 +85,7 @@ const resetGame = () => {
     <div className="App">
        
    <div className="header"> 
-     Rock Paper Scissors Game  <div className="rpsimg"> <img src= {rps} width={150} height={150} style={{ margin: '0 0 0 200%' }}alt= 'rps'/> </div>
+     Rock Paper Scissors Game  <div className="rpsimg"> <img src= {rps} width={150} height={150} style={{ margin: '0 0 0 250%' }}alt= 'rps'/> </div>
      </div>
 
 
