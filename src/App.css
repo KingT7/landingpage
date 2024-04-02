@@ -65,16 +65,7 @@
     padding: 1.5%;
 }
 
-@media (min-width: 390px) {
-    .App {
-        height: 100vh;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 900px) {
-    .App {
-        height: 250%;
-    }
+@media (min-width: 320px) and (max-width: 600px) {
     .header {
         padding-left: 1%;
         display: flex;
@@ -99,6 +90,52 @@
     .computer {
         margin-top: 2%;
         margin-bottom: 25%;
+        padding-top: 1%;
+        padding-bottom: 3%;
+        width: 160px;
+        height: 120px;
+        font-size: 1rem;
+        border-radius: 55px;
+        background-color: lightgray;
+        color: rgb(253, 84, 84);
+    }
+    .image {
+        padding-top: 4%;
+        padding: 1.5%;
+    }
+    .rpsimg {
+        display: none;
+    }
+}
+
+@media (min-width: 700px) {
+    .App {
+        height: 250%;
+    }
+    .header {
+        padding-left: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        background-color: bisque;
+        color: rgb(66, 66, 66);
+    }
+    .player1 {
+        margin: 2%;
+        margin-bottom: 10%;
+        padding-top: 1%;
+        padding-bottom: 3%;
+        width: 150px;
+        height: 120px;
+        font-size: 1rem;
+        border-radius: 55px;
+        background-color: lightgray;
+        color: rgb(253, 84, 84);
+    }
+    .computer {
+        margin-top: 2%;
+        margin-bottom: 10%;
         padding-top: 1%;
         padding-bottom: 3%;
         width: 160px;
