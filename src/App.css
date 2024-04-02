@@ -64,3 +64,9 @@
 .image {
     padding: 1.5%;
 }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .App {
+        margin: 0;
+    }
+}
