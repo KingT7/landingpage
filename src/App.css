@@ -87,7 +87,7 @@
         color: rgb(253, 84, 84);
     }
     .computer {
-        margin: 2%;
+        margin: 4%;
         padding-top: 1%;
         padding-bottom: 3%;
         width: 160px;
@@ -100,5 +100,8 @@
     .image {
         padding-top: 4%;
         padding: 1.5%;
+    }
+    .rpsimg {
+        display: none;
     }
 }
